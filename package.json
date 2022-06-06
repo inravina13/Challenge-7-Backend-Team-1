@@ -9,7 +9,7 @@
     "yarn": "1.22.18"
   },
   "scripts": {
-    "start": "bin/www",
+    "start": "node ./bin/www",
     "build": "npm run db:migrate",
     "develop": "nodemon -q bin/www",
     "dev": "nodemon -L bin/www",
